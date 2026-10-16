@@ -1,0 +1,4 @@
+category,query,gold article,rank in full corpus (cosine),shift (top-10)
+Recall ceiling (gold not in top-10),What should a player do if the piece he wants to promote to is not available?,6.12.b,#32,>10 -> >10
+Re-ranker demotes gold,Can a player castle when his king is currently in check?,3.8.b(2),#5,#5 -> #8
+Still outside top-3,What if I accidentally knock pieces off their squares?,7.3,#8,#8 -> #7

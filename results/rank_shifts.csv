@@ -1,0 +1,11 @@
+category,query,gold article,gold chunk(s),baseline rank,re-ranked rank,shift,in top-3 (P1),in top-3 (P2)
+Keyword trap / synonym,What score does a player receive for a tie?,11.1,"[82, 83]",#7,#2,#7 -> #2,False,True
+Keyword trap / synonym,Can the arbiter tell me my opponent forgot to press his clock?,13.6,[93],#10,#1,#10 -> #1,False,True
+Exception / corner case,Do I need to write down my moves in a 30 minute game?,App. A.2 (vs. 8.1),[95],#5,#2,#5 -> #2,False,True
+Exception / corner case,Can I correct an illegal move in blitz after my opponent has already moved?,App. B.3.c,"[102, 103]",#5,#2,#5 -> #2,False,True
+Exception / corner case,"In a rapid game, what if the king and queen were placed on the wrong squares at the start?",App. A.4.a,"[96, 97]",#3,#1,#3 -> #1,True,True
+Negation / constraint,Can a player appeal the arbiter's ruling on a draw claim in the quickplay finish?,12.10,"[88, 89]",#6,#2,#6 -> #2,False,True
+Negation / constraint,Is the player who has the move allowed to go to the restroom?,12.2,[84],#3,#1,#3 -> #1,True,True
+Negation / constraint,Can a draw offer be taken back?,9.1.b(1),[70],#3,#1,#3 -> #1,True,True
+Buried at rank 4-10,Is it illegal to leave a pawn on the last rank without replacing it?,7.4.a,[54],#5,#2,#5 -> #2,False,True
+Buried at rank 4-10,Can I ask the arbiter how many moves have been played?,13.6,[92],#4,#3,#4 -> #3,False,True

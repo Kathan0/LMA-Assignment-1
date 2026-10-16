@@ -1,0 +1,7 @@
+stage,mean (ms),median (ms),p95 (ms),n
+P1 baseline retrieval (embed + FAISS top-10),6.42,6.36,6.85,200
+Cross-encoder re-rank of 10 pairs (only),11.2,10.95,14.31,200
+P2 re-ranking retrieval (embed + FAISS + CE),17.62,17.32,20.7,200
+LLM generation (Qwen/Qwen2.5-3B-Instruct),3325.48,2911.33,4960.73,10
+"P1 end-to-end (retrieval + LLM, est.)",3331.9,2917.75,4967.15,10
+"P2 end-to-end (retrieval + CE + LLM, est.)",3343.1,2928.95,4978.35,10
