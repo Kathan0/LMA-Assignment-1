@@ -1,9 +1,11 @@
 .venv/
+.vscode/
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
 .env
 
 # private, not for the repo
-RAG_LMA_Assignment_v1.pdf
+# RAG_LMA_Assignment_v1.pdf
 REPORT_DATA.md
+report.tex
